@@ -1,0 +1,76 @@
+{
+	"metaDataVersion": "1.0.0",
+	"category": "com.microchip.ide.project",
+	"content": {
+		"metaDataVersion": "1.1.0",
+		"name": "com.microchip.mcu32.mplabx.project.net_apps_sam_e70_v71_tcpip_udp_client_pic32cz_ca70_curiosity_ultra_freertos",
+		"version": "3.7.0",
+		"displayName": "TCP/IP UDP Client Example for PIC32CZ CA70 Family",
+		"projectName": "tcpip_udp_client_freertos",
+		"shortDescription": "The UDP Client configuration demonstrates creating a network Client with the API to make a UDP/IP connection to a specified port.",
+		"ide": {
+			"name": "MPLABX",
+			"semverRange": ">=5.45.0"
+		},
+		"compiler": [
+			{
+				"name": "XC32",
+				"semverRange": ">=2.50.0"
+			}
+		],
+		"dfp": {
+			"name": "PIC32CZ-CA70_DFP",
+			"semverRange": "^1.0.10
+		},
+		"configurator": {
+			"name": "MCC",
+			"semverRange": ">=5.3.0"
+		},
+		"device": {
+			"metaDataVersion": "1.0.0",
+			"category": "com.microchip.portal.contentRef",
+			"content": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.device",
+				"name": "PIC32CZ2051CA70144",
+				"versionRange": "*"
+			}
+		},
+		"author": "Microchip",
+		"subcategories": [
+			[
+				"Development Kit", "PIC32CZ CA70 Curiosity Ultra board"
+			],
+			[
+				"Harmony", "Middleware", "TCP/IP", "TCPIP_UDP_CLIENT"
+			],
+			[
+				"Middleware", "TCP/IP", "TCPIP_UDP_CLIENT"
+			]
+		],
+		"peripherals": [
+			"MAC"
+		],
+		"keywords": [
+			"MHC",
+			"Harmony",
+			"Middleware",
+			"TCP/IP",
+			"PIC32CZ2051CA70144",
+			"PIC32CZ CA70 Family",
+			"Ethernet MAC",
+			"GMAC"
+		],
+		"additionalData": {
+			"longDescription": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.portal.fileRef",
+				"content": {
+					"metaDataVersion": "1.0.0",
+					"fileName": "./../../readme.md",
+					"mimeType": "text/markdown"
+				}
+			}
+		}
+	}
+}
