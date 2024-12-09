@@ -22025,7 +22025,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cz_ca70_curiosity_ultra_freertos\definitions.h</file>
-         <hash>f70d53f2a85f36d873d71251e5668a0cc218ebc0119543832ca7fa5d37fe0d92</hash>
+         <hash>2204df4d6df94cada14821dcd9d9c7fad87789fc855cffffb31ef5e9c7a93aa2</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cz_ca70_curiosity_ultra_freertos\device.h</file>
@@ -22129,7 +22129,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cz_ca70_curiosity_ultra_freertos\initialization.c</file>
-         <hash>b49cc0fae8feb08f987969be226bd7de36cf760c99a52ba8d3847d698a2f3416</hash>
+         <hash>ae0c45e7a197fa93dbf5fb180486c27158cf07826b3d12cb2bf66558334d1291</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cz_ca70_curiosity_ultra_freertos\interrupts.c</file>
