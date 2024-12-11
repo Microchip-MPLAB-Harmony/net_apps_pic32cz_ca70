@@ -8,7 +8,10 @@
             <make-project-type>0</make-project-type>
             <sourceEncoding>ISO-8859-1</sourceEncoding>
             <make-dep-projects/>
-            <sourceRootList/>
+            <sourceRootList>
+                <sourceRootElem>../../../berkeley_tcp_client/firmware/src</sourceRootElem>
+                <sourceRootElem>../src</sourceRootElem>
+            </sourceRootList>
             <confList>
                 <confElem>
                     <name>pic32cz_ca70_curiosity_ultra</name>
