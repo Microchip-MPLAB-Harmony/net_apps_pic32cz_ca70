@@ -80,9 +80,9 @@ extern "C" {
 #else    
 #if defined (__PIC32C__) || defined(__SAMA5D2__)        
 /* This section is highly customizable based on application's specific needs. */
-#define APP_SWITCH_1StateGet()      SWITCH_Get()
-#define APP_SWITCH_2StateGet()      SWITCH_Get()
-#define APP_SWITCH_3StateGet()      SWITCH_Get()
+#define APP_SWITCH_1StateGet()      SW0_Get()
+#define APP_SWITCH_2StateGet()      SW1_Get()
+#define APP_SWITCH_3StateGet()      SW1_Get()
 #elif defined (__PIC32MZ__)
 /* This section is highly customizable based on application's specific needs. */
 #define APP_SWITCH_1StateGet()      SWITCH1_Get()
@@ -90,9 +90,9 @@ extern "C" {
 #define APP_SWITCH_3StateGet()      SWITCH2_Get()
 #endif
 
-#define APP_LED_1StateSet()         LED1_Set()
-#define APP_LED_1StateGet()         LED1_Get()
-#define APP_LED_1StateClear()       LED1_Clear()
+#define APP_LED_1StateSet()         LED1_On()
+#define APP_LED_1StateGet()         ((PIOD_REGS->PIO_ODSR >> 29) & 0x1U)
+#define APP_LED_1StateClear()       LED1_Off()
 #define APP_LED_1StateToggle()      LED1_Toggle()
 
 #if defined(__PIC32MZ__)
