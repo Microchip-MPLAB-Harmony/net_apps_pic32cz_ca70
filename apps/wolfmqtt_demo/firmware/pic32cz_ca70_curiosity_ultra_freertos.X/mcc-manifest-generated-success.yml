@@ -24,6 +24,6 @@ modules:
 - {name: FreeRTOS-Kernel, type: HARMONY, version: V11.1.0}
 - {name: wolfMQTT, type: HARMONY, version: v1.11.1}
 - {name: wolfssl, type: HARMONY, version: v5.4.0}
-- {name: net, type: HARMONY, version: v3.13.0-rc2}
+- {name: net, type: HARMONY, version: v3.13.0}
 - {name: bsp, type: HARMONY, version: v3.21.1}
 - {name: crypto, type: HARMONY, version: v3.8.2}
