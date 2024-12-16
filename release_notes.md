@@ -12,7 +12,7 @@
 - None
 
 ### Known Issues
-- None
+- Unable to program the PIC32CZ CA70 Curiosity Ultra board in program mode, please use debug mode until this issue is fixed.
 
 ### Development Tools
 
